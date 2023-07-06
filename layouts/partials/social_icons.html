@@ -1,0 +1,11 @@
+
+<strong style="color: brown;">Let's Connect 😎 </strong>
+
+
+<div class="social-icons">
+    {{- range . }}
+    <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ (.title | default .name) | title }}">
+        {{ partial "svg.html" . }}
+    </a>
+    {{- end }}
+</div>

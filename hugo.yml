@@ -1,0 +1,50 @@
+baseURL: ''
+languageCode: en-us
+title: Home
+theme: PaperMod
+
+
+
+params:
+  homeInfoParams:
+    Title: "Hello Strangers 👋"
+    Content: Welcome 🙌.  My name is Shubham Singh.   I write here about Data Science and Webops.......  You can follow this page to stay uptodate with latest technologies and best practices. 
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/shubham-singh%F0%9F%87%AE%F0%9F%87%B3%F0%9F%9A%80-23997021a/"
+    - name: twitter
+      url: "https://twitter.com/Shubham22316"
+    - name: github
+      url: "https://github.com/shubhamcr771"    
+        
+
+
+
+  cover:
+  linkFULLImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+         
+
+  
